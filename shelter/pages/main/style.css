@@ -84,6 +84,7 @@ body {
   border-width: 0 0 3px 0;
 }
 .notOnly {
+  margin-top: 53px;
   display: flex;
   justify-content: space-between;
 }
@@ -111,7 +112,9 @@ body {
   font-size: 15px;
   line-height: 160%;
   color: #cdcdcd;
-  padding-bottom: 30px;
+  padding-bottom: 42px;
+  padding-top: 3px;
+  margin: 0;
 }
 .button_color {
   display: inline-block;
@@ -130,5 +133,13 @@ body {
   background: #d5a583;
 }
 .button_color span {
-  margin: 10px 50px 0px 50px;
+  display: block;
+  margin: 15px 0px 0px 44px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
 }
