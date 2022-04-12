@@ -143,3 +143,36 @@ body {
   letter-spacing: 0.06em;
   color: #292929;
 }
+.twoColomnLayout {
+  margin: o auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  padding: 80px 215px 100px;
+  background: #ffffff;
+}
+.header_black {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 0 auto;
+}
+.about__text {
+  max-width: 430px;
+  margin-left: 120px;
+}
+.about__paragraf {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #4c4c4c;
+  margin-top: 15px;
+}
