@@ -264,3 +264,41 @@ body {
   margin-top: 29px;
   margin-bottom: 100px;
 }
+.Help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.help__header {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.help__grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.itemHelp__grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+  margin-bottom: 55px;
+}
+.help__text {
+  margin-top: 25px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+
+  letter-spacing: 0.06em;
+  color: #545454;
+}
