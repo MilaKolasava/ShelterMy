@@ -302,3 +302,48 @@ body {
   letter-spacing: 0.06em;
   color: #545454;
 }
+.inAddition__text {
+  width: 380px;
+}
+.inAddition {
+  padding-top: 96px;
+  padding-left: 30px;
+}
+.inAddition__image {
+  padding-right: 20px;
+}
+.inAddition_sentense {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin: 19px 0px 22px;
+}
+.inAddition__button_color {
+  display: inline-block;
+  width: 349px;
+  height: 43px;
+  left: calc(50% - 349px / 2 - 126.5px);
+  bottom: 0px;
+  background: #f1cdb3;
+  border-radius: 9px;
+  border: none;
+  text-decoration: none;
+}
+.inAddition__text_image {
+  display: block;
+  padding: 9px 2px 1px 12px;
+}
+.inAddition__paragraf {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #b2b2b2;
+}
