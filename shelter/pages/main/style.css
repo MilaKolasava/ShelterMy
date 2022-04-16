@@ -389,3 +389,7 @@ footer {
   letter-spacing: 0.06em;
   color: #f1cdb3;
 }
+.footer__informationText p a {
+  text-decoration: none;
+  color: #f1cdb3;
+}
