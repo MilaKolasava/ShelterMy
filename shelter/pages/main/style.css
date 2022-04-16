@@ -192,6 +192,7 @@ body {
 }
 .ourFrends__cards {
   display: flex;
+  gap: 90px;
   max-width: 990px;
   justify-content: space-between;
   text-align: center;
