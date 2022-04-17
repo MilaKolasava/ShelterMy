@@ -61,6 +61,39 @@ body {
   color: #ffffff;
   margin: 0;
 }
+@media (max-width: 761px) {
+  .header__burger {
+    display: blok;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+
+  .header__burger::before,
+  .header__burger::after {
+    content: " ";
+    background-color: #f1cdb3;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger span {
+    position: absolute;
+    background-color: #f1cdb3;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+}
 .header__list-navigation {
   display: flex;
   justify-content: space-between;
