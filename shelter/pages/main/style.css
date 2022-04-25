@@ -27,6 +27,7 @@ html {
 .wrapper-header {
   background-color: #5b483a;
   padding: 60px 0 45px;
+  border: 2px solid #5b483a;
 }
 .container {
   margin: 0 auto;
@@ -752,6 +753,9 @@ html {
   .inAddition-content {
     padding-top: 9px;
   }
+  .inAddition__text_image {
+    width: 80%;
+  }
   .inAddition__button_color {
     width: 281px;
     height: 43px;
@@ -779,7 +783,7 @@ html {
     max-width: 93%;
   }
   .inAddition-wrapper {
-    padding-bottom: 33px;
+    padding-bottom: 0px;
   }
   .header__light {
     font-size: 25px;
