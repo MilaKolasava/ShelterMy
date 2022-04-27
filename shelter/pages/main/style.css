@@ -844,7 +844,7 @@ body._lock {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 320px;
     height: 823px;
     background-color: #292929;
     padding: 158px 0px 30px 0px;

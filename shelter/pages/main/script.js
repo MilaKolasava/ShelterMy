@@ -3,29 +3,32 @@
 const headerBurger = document.querySelector(".header__burger");
 const headerNavigation = document.querySelector(".header-navigation");
 if (headerBurger) {
-  headerBurger.addEventListener("click", function (e) {
+  headerBurger.addEventListener("click", function (event) {
     document.body.classList.toggle("_lock");
     headerBurger.classList.toggle("_active");
     headerNavigation.classList.toggle("_active");
   });
 }
-const menuLinks = document.querySelectorAll(".list-navigation-item[data-goto");
+const menuLinks = document.querySelectorAll(".list-navigation-item[data-goto]");
+//массив ссылок
 if (menuLinks.length > 0) {
+  // проверяется пустой массив или нет. Проверка на пустой массив
   menuLinks.forEach((menuLink) => {
     menuLink.addEventListener("click", onMenuLinkClick);
   });
 
-  function onMenuLinkClick(e) {
-    const menuLink = e.target;
+  function onMenuLinkClick(event) {
+    console.log(event);
+    const menuLink = event.target;
     if (
       menuLink.dataset.goto &&
       document.querySelector(menuLink.dataset.goto)
+      //происзодит проверка есть ли у элемента в target свойство dataset со значением goto
     ) {
       const gotoBlock = document.querySelector(menuLink.dataset.goto);
-      const gotoBlockValue =
-        gotoBlock.getBoundingClientRect().top +
-        pageYOffset -
-        document.querySelector("header").offsetHeight;
+      const gotoBlockValue = gotoBlock.getBoundingClientRect().top;
+      //pageYOffset -
+      //document.querySelector(".content-header").offsetHeight;
 
       if (headerBurger.classList.contains("_active")) {
         document.body.classList.remove("_lock");
@@ -37,7 +40,7 @@ if (menuLinks.length > 0) {
         top: gotoBlockValue,
         behavior: "smooth",
       });
-      e.preventDefault();
+      event.preventDefault();
     }
   }
 }
