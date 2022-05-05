@@ -47,7 +47,9 @@ if (isNotEmptyMenuLinks) {
 }
 
 headerNavigation.addEventListener("click", (event) => {
-  if (headerNavigation.classList.contains("_active")) {
+  const isMobileMenuOpen = headerNavigation.classList.contains("_active");
+
+  if (isMobileMenuOpen) {
     closeMenu();
   }
 });
